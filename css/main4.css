@@ -1,0 +1,135 @@
+.kadai4 {
+    display: block;
+    width: 700px;
+    height: 500px;
+    background-color: #222;
+    color: white;
+    padding: 10px 50px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.text {
+    margin-top: 10px;
+}
+.text p {
+    line-height: 2;
+}
+.slick {
+    margin: 10px auto;
+    width: 80%;
+}
+.prev {
+    position: absolute;
+    left: -30px;
+    top: 160px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.next {
+    position: absolute;
+    right: -30px;
+    top: 160px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.slide-dots {
+    text-align: center;
+}
+.slide-dots li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.slide-dots li button {
+    position: relative;
+    text-indent: -9999px;
+}
+.slide-dots li button:before {
+    content:"●";
+    text-indent: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    font-size: 20px;
+}
+.slide-dots .slick-active button:before {
+    content: "●";
+    text-indent: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    font-size: 20px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+
+/* reset css*/
+/* margin padding reset */
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img, figure,
+h1, h2, h3 ,h4 ,h5, h6, form, select
+{ margin: 0; padding: 0; }
+
+html
+{ -webkit-text-size-adjust: 100%; }
+
+body
+{ -webkit-font-smoothing: antialiased; }
+
+/* remove list point mark */
+ul, ol
+{ list-style: none; }
+
+/* remove border & off descender */
+img
+{ border: 0; vertical-align: middle; }
+
+/* remove descender */
+svg, input, select, textarea, label
+{ vertical-align: middle; }
+
+/* set collapse */
+table
+{ border-collapse: collapse; }
+
+/* break word for all elements */
+*, *:before, *:after
+{ word-break: break-all; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+pre
+{ white-space: pre-wrap; }
+
+address
+{ font-style: normal; }
+
+p
+{ line-height: 1.5; }
